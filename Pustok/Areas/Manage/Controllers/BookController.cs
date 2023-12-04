@@ -65,7 +65,7 @@ namespace Pustok.Areas.Manage.Controllers
             ViewBag.Tags = await _bookRepository.GetAllTagAsync();
 
             if (!ModelState.IsValid) return View();
-            var existBook = _bookRepository.GetBookById(id);
+            var existBook =await _bookRepository.GetBookById(id);
             return View(existBook);
         }
 

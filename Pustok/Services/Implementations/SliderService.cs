@@ -35,7 +35,7 @@ namespace Pustok.Services.Implementations
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     slider.FormFile.CopyTo(fileStream);
@@ -82,7 +82,7 @@ namespace Pustok.Services.Implementations
             {
                 throw new NullReferenceException();
             }
-            string oldFilePath = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + wanted.ImageUrl;
+            string oldFilePath = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + wanted.ImageUrl;
 
             if (slider.FormFile != null)
             {
@@ -105,7 +105,7 @@ namespace Pustok.Services.Implementations
 
                 newFileName = Guid.NewGuid().ToString() + newFileName;
 
-                string newFilePath = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + newFileName;
+                string newFilePath = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\sliders\\" + newFileName;
                 using (FileStream fileStream = new FileStream(newFilePath, FileMode.Create))
                 {
                     slider.FormFile.CopyTo(fileStream);

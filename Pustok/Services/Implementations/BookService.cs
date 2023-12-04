@@ -80,7 +80,7 @@ namespace Pustok.Services.Implementations
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     book.BookPoster.CopyTo(fileStream);
@@ -123,7 +123,7 @@ namespace Pustok.Services.Implementations
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     book.BookHower.CopyTo(fileStream);
@@ -165,7 +165,7 @@ namespace Pustok.Services.Implementations
 
                     fileName = Guid.NewGuid().ToString() + fileName;
 
-                    string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                    string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                     using (FileStream fileStream = new FileStream(path, FileMode.Create))
                     {
                         img.CopyTo(fileStream);
@@ -251,7 +251,7 @@ namespace Pustok.Services.Implementations
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     book.BookPoster.CopyTo(fileStream);
@@ -267,11 +267,7 @@ namespace Pustok.Services.Implementations
                 existBook.BookImages.Add(bookImage);
 
             }
-            else
-            {
-                throw new TotalBookExceptions("BookPoster", "image is required");
-            }
-
+           
 
 
             if (book.BookHower != null)
@@ -294,7 +290,7 @@ namespace Pustok.Services.Implementations
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     book.BookHower.CopyTo(fileStream);
@@ -308,11 +304,7 @@ namespace Pustok.Services.Implementations
                 };
                 existBook.BookImages.Add(bookImage);
             }
-            else
-            {
-                throw new TotalBookExceptions("BookHower", "image is required");
-            }
-
+            
 
             if (book.ImageFiles != null)
             {
@@ -340,7 +332,7 @@ namespace Pustok.Services.Implementations
 
                     fileName = Guid.NewGuid().ToString() + fileName;
 
-                    string path = "C:\\Users\\Mehemmed\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
+                    string path = "C:\\Users\\II Novbe\\Desktop\\Pustok-Last-version\\Pustok\\wwwroot\\uploads\\books\\" + fileName;
                     using (FileStream fileStream = new FileStream(path, FileMode.Create))
                     {
                         img.CopyTo(fileStream);
@@ -367,6 +359,8 @@ namespace Pustok.Services.Implementations
             existBook.IsAvailable = book.IsAvailable;
             existBook.AuthorId = book.AuthorId;
             existBook.GenreId = book.GenreId;
+
+            await _bookRepository.SaveAsync();
         }
     }
 }

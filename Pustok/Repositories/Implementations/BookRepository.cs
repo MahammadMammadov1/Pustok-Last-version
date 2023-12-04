@@ -65,7 +65,7 @@ namespace Pustok.Repositories.Implementations
 
         public async Task<Book> GetBookById(int id)
         {
-            return await _appDb.Books.FirstOrDefaultAsync(b => b.Id == id);
+            return await _appDb.Books.Include(x=>x.BookImages).Include(x => x.BookTags).Include(x => x.Author).Include(x => x.Genre).FirstOrDefaultAsync(b => b.Id == id);
         }
 
         public async Task<int> SaveAsync()
