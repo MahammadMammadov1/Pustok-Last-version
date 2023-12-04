@@ -297,7 +297,7 @@ namespace Pustok.Services.Implementations
                 }
 
                 BookImage bookImage = new BookImage
-                {
+                {  
                     Book = book,
                     ImageUrl = fileName,
                     isPoster = false,
