@@ -12,8 +12,8 @@ using Pustok.DAL;
 namespace Pustok.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231130085024_maga")]
-    partial class maga
+    [Migration("20231204022200_last")]
+    partial class last
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -223,6 +223,15 @@ namespace Pustok.Migrations
 
                     b.Property<double>("Tax")
                         .HasColumnType("float");
+
+                    b.Property<bool>("isBestseller")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isFeatured")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isNew")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 

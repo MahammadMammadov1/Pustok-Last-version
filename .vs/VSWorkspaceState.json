@@ -4,8 +4,10 @@
     "\\Pustok",
     "\\Pustok\\Areas",
     "\\Pustok\\Areas\\Manage",
-    "\\Pustok\\Areas\\Manage\\Controllers"
+    "\\Pustok\\Areas\\Manage\\Controllers",
+    "\\Pustok\\Areas\\Manage\\Views",
+    "\\Pustok\\Areas\\Manage\\Views\\Book"
   ],
-  "SelectedNode": "\\Pustok\\Areas\\Manage\\Controllers\\BookController.cs",
+  "SelectedNode": "\\Pustok\\Areas\\Manage\\Views\\Book\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,14 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 using Pustok.DAL;
+using Pustok.Repositories;
+using Pustok.Repositories.Implementations;
+using Pustok.Services;
+using Pustok.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ISliderRepository,SliderRepository>();
+builder.Services.AddScoped<ISliderService,SliderService>();
+builder.Services.AddScoped<IBookRepository,BookRepository>();
+builder.Services.AddScoped<IBookService,BookService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(opt => {
-    opt.UseSqlServer("Server=DESKTOP-KA8SSD4;Database=MVC-BB206-Crud-FILE;Trusted_Connection=True");
+    opt.UseSqlServer("Server=MSI;Database=MVC-BB206-Crud;Trusted_Connection=True");
 
 });
 

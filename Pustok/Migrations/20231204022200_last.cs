@@ -4,7 +4,7 @@
 
 namespace Pustok.Migrations
 {
-    public partial class maga : Migration
+    public partial class last : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -94,7 +94,10 @@ namespace Pustok.Migrations
                     SalePrice = table.Column<double>(type: "float", nullable: false),
                     DiscountedPrice = table.Column<double>(type: "float", nullable: false),
                     AuthorId = table.Column<int>(type: "int", nullable: false),
-                    GenreId = table.Column<int>(type: "int", nullable: false)
+                    GenreId = table.Column<int>(type: "int", nullable: false),
+                    isNew = table.Column<bool>(type: "bit", nullable: false),
+                    isFeatured = table.Column<bool>(type: "bit", nullable: false),
+                    isBestseller = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

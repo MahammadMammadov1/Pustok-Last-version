@@ -2432,6 +2432,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\43890add-1d78-4079-b9c2-9e9724c924001_GoLwqfeB624NB5g7JPVyBA.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\489e9643-ad30-478e-b277-ec8afafc3b1adownload (1).jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/489e9643-ad30-478e-b277-ec8afafc3b1adownload (1).jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\489e9643-ad30-478e-b277-ec8afafc3b1adownload (1).jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4c2920a1-8bec-4999-9d4b-35491e3e90571_GoLwqfeB624NB5g7JPVyBA.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pustok</SourceId>
@@ -2608,6 +2624,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\7a9de1c5-bc8e-4126-9341-dc0aba72565e899f5dd0c9f47afa052d7fe6c3da12a0-1200x675-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8105bdf2-61cd-4642-b0fc-3b1ec21175ecsddefault_live.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/8105bdf2-61cd-4642-b0fc-3b1ec21175ecsddefault_live.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8105bdf2-61cd-4642-b0fc-3b1ec21175ecsddefault_live.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\88501ab7-0a02-4e2f-bc4b-27f144dd3b034e6cec6672739cd31912005eeaab26e0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustok</SourceId>
@@ -2768,6 +2800,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\bfb508b5-9c46-4cae-9b04-ef89ff0e45c7free-images.avif))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c6812bf1-1338-45e2-8c30-9bad8158bf09download.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/c6812bf1-1338-45e2-8c30-9bad8158bf09download.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c6812bf1-1338-45e2-8c30-9bad8158bf09download.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c9e89ab5-ea8d-4695-bbc7-3692875122fbfeature-work-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustok</SourceId>
@@ -2783,6 +2831,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c9e89ab5-ea8d-4695-bbc7-3692875122fbfeature-work-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\cb44d9a8-c5e4-4477-b141-546bec469109_Battlefield-2042-5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/cb44d9a8-c5e4-4477-b141-546bec469109_Battlefield-2042-5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\cb44d9a8-c5e4-4477-b141-546bec469109_Battlefield-2042-5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ce6d66ca-2201-42c8-afa2-597efc77abe8services-07.jpg))">
       <SourceType>Package</SourceType>
@@ -2815,6 +2879,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d953726f-b601-4b0d-9a76-6d356fcbc05dtree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d9a75fb3-d573-4711-ac42-9b399fd2e828What-is-Phonk.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/d9a75fb3-d573-4711-ac42-9b399fd2e828What-is-Phonk.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d9a75fb3-d573-4711-ac42-9b399fd2e828What-is-Phonk.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\dcad14cc-7ceb-4fc8-8138-619b20363bd0download.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/dcad14cc-7ceb-4fc8-8138-619b20363bd0download.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\dcad14cc-7ceb-4fc8-8138-619b20363bd0download.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\df0fa80b-17e4-4226-8f97-925e7ed1c911free-images.avif))">
       <SourceType>Package</SourceType>
@@ -2863,6 +2959,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e74c4962-81cf-4e7e-8d29-149375c3e603product-9.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f19374c0-101c-436f-a220-fbf4de25f464gym-og6h4kg6ciwvrj5i.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/books/f19374c0-101c-436f-a220-fbf4de25f464gym-og6h4kg6ciwvrj5i.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f19374c0-101c-436f-a220-fbf4de25f464gym-og6h4kg6ciwvrj5i.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f3798c79-498c-44cf-8ce2-171331195db9899f5dd0c9f47afa052d7fe6c3da12a0-1200x675-1.jpg))">
       <SourceType>Package</SourceType>
@@ -2944,6 +3056,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fd9dea58-d9d5-4546-991e-575c2d9a826fn-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\0cb68128-261a-436e-b4de-8a0e6c639572What-is-Phonk.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/0cb68128-261a-436e-b4de-8a0e6c639572What-is-Phonk.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\0cb68128-261a-436e-b4de-8a0e6c639572What-is-Phonk.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\13a18ef3-b375-4855-ba59-8f88bd0143c14e6cec6672739cd31912005eeaab26e0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustok</SourceId>
@@ -2959,6 +3087,86 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\13a18ef3-b375-4855-ba59-8f88bd0143c14e6cec6672739cd31912005eeaab26e0.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\530b9bf0-5e38-47b3-a1fc-f8484910decbsddefault_live.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/530b9bf0-5e38-47b3-a1fc-f8484910decbsddefault_live.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\530b9bf0-5e38-47b3-a1fc-f8484910decbsddefault_live.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\71085f45-65fc-4083-a4f3-d1165f24b2e4gym-og6h4kg6ciwvrj5i.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/71085f45-65fc-4083-a4f3-d1165f24b2e4gym-og6h4kg6ciwvrj5i.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\71085f45-65fc-4083-a4f3-d1165f24b2e4gym-og6h4kg6ciwvrj5i.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\80f20b99-6a18-42ce-90e0-a256fdc82897_Battlefield-2042-5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/80f20b99-6a18-42ce-90e0-a256fdc82897_Battlefield-2042-5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\80f20b99-6a18-42ce-90e0-a256fdc82897_Battlefield-2042-5.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\88be6028-cc04-4591-a236-91c65655d6a9sddefault_live.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/88be6028-cc04-4591-a236-91c65655d6a9sddefault_live.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\88be6028-cc04-4591-a236-91c65655d6a9sddefault_live.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b3c56ca6-b7dc-44ca-b09d-a103b28204fcWhat-is-Phonk.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustok</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustok</BasePath>
+      <RelativePath>uploads/sliders/b3c56ca6-b7dc-44ca-b09d-a103b28204fcWhat-is-Phonk.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b3c56ca6-b7dc-44ca-b09d-a103b28204fcWhat-is-Phonk.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\ce608a25-c5e5-49ba-aec4-1ad8de0b4b22899f5dd0c9f47afa052d7fe6c3da12a0-1200x675-1.jpg))">
       <SourceType>Package</SourceType>
